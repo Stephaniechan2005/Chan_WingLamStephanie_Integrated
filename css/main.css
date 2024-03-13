@@ -1,0 +1,167 @@
+/*
+Couples Resort Responsive Build
+4 column grid as per XD file
+ */
+
+/*
+    CSS Guide
+
+    1.  General Styles
+    2.  Main Nav
+    3.  Main Hero Image
+    4.  Main Hero Image Contact
+    5.  Why Couples Resort
+    6.  About & FAQ
+    7.  Contact Form
+    8.  Footer
+ */
+
+/* 1. ---General Styles--- */
+
+body {
+  color: #626262;
+  font-family: "sanchez", "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+input,
+textarea {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.cr-red {
+  color: #9a2018;
+}
+.line-seperator {
+  margin-top: 20px;
+  border-top: solid 3px #cf6666;
+  padding-top: 20px;
+}
+/* 2. ---Main Nav--- */
+#main-nav label img {
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  margin-bottom: 20px;
+}
+
+#main-nav input,
+#burger-icon {
+  display: none;
+}
+#main-nav input:checked ~ #burger-icon {
+  display: block;
+}
+#main-nav input:checked ~ label img {
+  transform: rotate(90deg);
+}
+
+#main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#main-nav ul li a {
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  color: #626262;
+}
+#main-nav ul li {
+  border-bottom: 1px solid #efefef;
+}
+
+#main-nav ul li:first-child {
+  border-top: 1px solid #efefef;
+}
+#main-nav ul li:last-child {
+  margin-bottom: 10px;
+}
+
+#logo {
+  max-width: 382px;
+  margin-bottom: 20px;
+}
+/* 3. ---Main Hero Image--- */
+
+#hero {
+  background: url(../images/hero-main.jpg) no-repeat;
+  height: 200px;
+}
+.book-now {
+  background-color: #9a2018;
+  color: #fff;
+  font-size: 16px;
+  transition: background-color 500ms linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.book-now:hover {
+  background-color: rgb(196, 28, 28);
+}
+
+#book-now-hero {
+  height: 67px;
+}
+
+#hero-heading-box {
+  align-self: flex-end;
+}
+
+.hero-img-h2,
+.hero-img-h3 {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.hero-img-h2 span,
+.hero-img-h3 span {
+  font-size: 12px;
+}
+
+#hero-summary p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+/* 4. ---Main Hero Image Contact--- */
+
+/* 5. ---Why Choose Us--- */
+
+/* 6. ---About & FAQ--- */
+
+/* 7. ---Contact--- */
+
+/* 8. ---Footer--- */
+#footer-hero {
+  background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 12px;
+  margin: top 40px;
+  padding-bottom: 80px;
+}
+
+#footer-hero h3 {
+  margin-top: 30px;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+#footer-contact-info p {
+  margin-bottom: 20px;
+  line-height: 18px;
+  font-size: 11px;
+}
