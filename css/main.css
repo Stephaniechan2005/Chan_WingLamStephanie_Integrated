@@ -359,3 +359,62 @@ textarea {
 #four-season-bottom-nav ol li {
   display: inline;
 }
+/*Summer CSS*/
+
+#hero-summer {
+  background: url(../images/summer-hero-main.jpg) no-repeat;
+  height: 200px;
+}
+#summer-hero-heading-box {
+  align-self: end;
+}
+
+#summer-hero-summary p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#swimming-pool-summary p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#swimming-pool-summary h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#swimming-pool-summary h3 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+#summer-park-hero {
+  background: url(../images/summer_activities.jpg) no-repeat;
+  height: 200px;
+}
+
+#summer-park-hero-heading-box {
+  align-self: end;
+}
+
+#summer-park-summary p {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#motor-summary p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#motor-summary h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
