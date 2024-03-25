@@ -525,3 +525,37 @@ textarea {
   color: #707070;
   font-size: 12px;
 }
+
+#hiking-hero {
+  background: url(../images/hiking-main.jpg) no-repeat;
+  height: 200px;
+}
+
+#hiking-hero-heading-box {
+  align-self: end;
+}
+
+#clothing h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#clothing p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+#other-activities-summary h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#other-activities-summary h3 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+#other-activities-summary p {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
