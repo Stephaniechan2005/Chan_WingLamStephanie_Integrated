@@ -419,3 +419,59 @@ textarea {
   font-size: 14px;
   margin-bottom: 10px;
 }
+
+.motor-img-left {
+  float: left;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.motor-img-left-con h2 {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.motor-img-left-con p {
+  font-size: 12px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.motor-img-right {
+  float: right;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.motor-img-right-con h2 {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.motor-img-right-con p {
+  font-size: 12px;
+  margin-bottom: 40px;
+  line-height: 20px;
+}
+
+.paddle-img-left {
+  float: left;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.paddle-img-left-con h2 {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+#paddle-boat-right {
+  float: right;
+  margin-right: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
