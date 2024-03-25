@@ -408,6 +408,10 @@ textarea {
   line-height: 22px;
 }
 
+#motor-summary {
+  margin-bottom: 20px;
+}
+
 #motor-summary p {
   font-size: 12px;
   margin-top: 10px;
@@ -472,6 +476,52 @@ textarea {
   float: right;
   margin-right: 20px;
   font-size: 14px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-top: 30px;
+}
+
+#pickleball-hero {
+  background: url(../images/badminton.jpg) no-repeat;
+  height: 200px;
+}
+
+#pickleball-hero-heading-box {
+  align-self: end;
+}
+
+#pickleball-summary p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#pickleball-summary h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#horseriding-hero {
+  background: url(../images/horseriding.jpg) no-repeat;
+  height: 200px;
+}
+
+#horseriding-hero-heading-box {
+  align-self: end;
+}
+
+#horseriding-summary p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#horseriding-summary h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#horseriding-summary p a {
+  color: #707070;
+  font-size: 12px;
 }
