@@ -661,3 +661,115 @@ textarea {
   line-height: 20px;
   margin-bottom: 20px;
 }
+
+/*Spa Page*/
+
+#spa-hero {
+  background: url(../images/spa-main.png) no-repeat;
+  height: 200px;
+}
+#spa-hero-heading-box {
+  align-self: end;
+}
+
+#spa-hero-summary p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
+
+#spa-feature-hero {
+  background: url(../images/spafeature_v2.jpg) no-repeat;
+  height: 200px;
+}
+#spa-feature-hero-heading-box {
+  align-self: end;
+}
+
+#spa-feature-hero-summary p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+
+.spa-img-left-con h2 {
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.spa-img-left-con p {
+  font-size: 11px;
+  margin-bottom: 65px;
+  line-height: 20px;
+}
+
+.spa-img-left {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+#spa-policy-hero {
+  background: url(../images/spapolicy-main.jpg) no-repeat;
+  height: 200px;
+}
+#spa-policy-hero-heading-box {
+  align-self: end;
+}
+
+#spa-policy-hero-summary p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+
+#spa-unforeseen-hero {
+  background: url(../images/unforseen.jpg) no-repeat;
+  height: 200px;
+}
+#spa-unforeseen-hero-heading-box {
+  align-self: end;
+}
+
+#spa-unforeseen-hero-summary p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+
+#spa-ontario-hero {
+  background: url(../images/unforseen.jpg) no-repeat;
+  height: 200px;
+}
+#spa-ontario-hero-heading-box {
+  align-self: end;
+}
+
+#spa-ontario-hero-summary p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 18px;
+}
+
+#spa-ontario-hero-summary h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.spa-product-img-left-con p {
+  font-size: 11px;
+  margin-bottom: 65px;
+  line-height: 20px;
+}
+
+.spa-product-img-left {
+  float: left;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
