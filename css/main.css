@@ -339,6 +339,8 @@ textarea {
 #contact-hero-form form {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start;
 }
 
 #contact-hero-form input,
@@ -373,6 +375,10 @@ textarea {
   width: 380px;
   animation: buttonhover 0.3s ease-in-out;
   content: "Thank You";
+}
+
+#contact-hero-form input[type="checkbox"] {
+  width: 20px;
 }
 
 #contact-hero-form input[type="checkbox"]:checked + p::after {
