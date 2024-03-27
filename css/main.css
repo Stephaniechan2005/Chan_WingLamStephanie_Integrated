@@ -113,10 +113,6 @@ textarea {
   margin: 0 auto;
 }
 
-#sub-menu-spring::before {
-  border-width: 412px;
-}
-
 #logo {
   max-width: 382px;
   margin-bottom: 20px;
