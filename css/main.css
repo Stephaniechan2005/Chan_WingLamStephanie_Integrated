@@ -373,7 +373,7 @@ textarea {
   background-color: #626262;
   border-radius: 0;
   width: 380px;
-  animation: buttonhover 0.3s ease-in-out;
+  animation: buttonhover 0.7s ease-in-out;
   content: "Thank You";
 }
 
@@ -382,7 +382,7 @@ textarea {
 }
 
 #contact-hero-form input[type="checkbox"]:checked + p::after {
-  content: "✅";
+  content: "😇";
   margin-left: 30px;
   font-size: 11px;
   margin-top: -45px;
