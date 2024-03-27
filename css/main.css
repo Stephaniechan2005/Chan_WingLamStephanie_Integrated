@@ -813,3 +813,45 @@ textarea {
   margin-top: 10px;
   margin-bottom: 60px;
 }
+
+#spa-faq-con {
+  background-color: #f4f4f4;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+#spa-faq-con h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#spa-faq-con h2 span {
+  font-size: 16px;
+}
+
+.faq-items summary {
+  background-color: #e8e7e7;
+  padding: 16px;
+  font-size: 16px;
+}
+
+#faq-text-con1 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con4 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con5 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
