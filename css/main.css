@@ -89,6 +89,34 @@ textarea {
   margin-bottom: 10px;
 }
 
+#sub-menu-activities {
+  margin-top: -30px;
+}
+
+#sub-menu-details {
+  margin-top: 15px;
+}
+#sub-menu-spring {
+  width: 250px;
+  margin: 0 auto;
+}
+#sub-menu-summer {
+  width: 250px;
+  margin: 0 auto;
+}
+#sub-menu-fall {
+  width: 250px;
+  margin: 0 auto;
+}
+#sub-menu-winter {
+  width: 250px;
+  margin: 0 auto;
+}
+
+#sub-menu-spring::before {
+  border-width: 412px;
+}
+
 #logo {
   max-width: 382px;
   margin-bottom: 20px;
