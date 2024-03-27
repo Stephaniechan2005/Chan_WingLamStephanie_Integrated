@@ -37,6 +37,10 @@ textarea {
 .cr-red {
   color: #9a2018;
 }
+
+.cr-grey {
+  color: #e1e1e1;
+}
 .line-seperator {
   margin-top: 20px;
   border-top: solid 3px #cf6666;
@@ -357,14 +361,44 @@ textarea {
   background: #9a2018;
   color: #fff;
   border: none;
-  transition: all 200ms ease-in;
+  /*transition: all 200ms ease-in;*/
   width: 150px;
   align-self: flex-end;
+  cursor: pointer;
 }
 
 #contact-hero-form input[type="submit"]:hover {
   background-color: #626262;
   border-radius: 0;
+  width: 380px;
+  animation: buttonhover 0.3s ease-in-out;
+  content: "Thank You";
+}
+
+#contact-hero-form input[type="checkbox"]:checked + p::after {
+  content: "✅";
+  margin-left: 30px;
+  font-size: 11px;
+  margin-top: -45px;
+}
+
+#checkbox-text {
+  font-size: 14px;
+  margin-top: -45px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+@keyframes buttonhover {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* 8. ---Footer--- */
@@ -702,7 +736,7 @@ textarea {
 
 .spa-img-left-con p {
   font-size: 11px;
-  margin-bottom: 65px;
+  margin-bottom: 40px;
   line-height: 20px;
 }
 
@@ -742,7 +776,7 @@ textarea {
 }
 
 #spa-ontario-hero {
-  background: url(../images/unforseen.jpg) no-repeat;
+  background: url(../images/ontariospa-main.jpg) no-repeat;
   height: 200px;
 }
 #spa-ontario-hero-heading-box {
