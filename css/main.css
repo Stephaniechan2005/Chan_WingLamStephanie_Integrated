@@ -502,6 +502,42 @@ textarea {
   display: inline;
 }
 
+#activities-faq-con {
+  background-color: #f4f4f4;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+#activities-faq-con h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#activities-faq-con h2 span {
+  font-size: 16px;
+}
+
+#faq-text-con6 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con7 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con8 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con9 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+#faq-text-con10 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
 /*Summer Page*/
 
 #hero-summer {
