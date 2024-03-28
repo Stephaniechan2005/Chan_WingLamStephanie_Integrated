@@ -393,12 +393,33 @@ textarea {
   cursor: pointer;
 }
 
+#submit-button {
+  width: 380px;
+  height: 100px;
+}
+
+#thankyou {
+  color: #fff;
+  text-align: center;
+}
+
+#send {
+  color: #fff;
+  margin-left: 30px;
+}
 #contact-hero-form input[type="submit"]:hover {
   background-color: #626262;
   border-radius: 0;
   width: 380px;
-  animation: buttonhover 0.7s ease-in-out;
-  content: "Thank You";
+  animation: buttonhover 2s ease-in-out 1s 1 normal none;
+  /*content: "Thank You";*/
+}
+#contact-hero-form input[type="submit"] + #send {
+  margin-top: -65px;
+}
+#contact-hero-form input[type="submit"]:hover + #thankyou {
+  margin-top: -65px;
+  background-color: #626262;
 }
 
 #contact-hero-form input[type="checkbox"] {
@@ -420,14 +441,34 @@ textarea {
 }
 
 @keyframes buttonhover {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(0.5);
-  }
+  0%,
   100% {
-    transform: scale(1);
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+  }
+
+  10% {
+    transform: rotate(8deg);
+  }
+
+  20%,
+  40%,
+  60% {
+    transform: rotate(-10deg);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: rotate(10deg);
+  }
+
+  80% {
+    transform: rotate(-8deg);
+  }
+
+  90% {
+    transform: rotate(8deg);
   }
 }
 
