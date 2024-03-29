@@ -411,15 +411,53 @@ textarea {
   background-color: #626262;
   border-radius: 0;
   width: 380px;
-  animation: buttonhover 2s ease-in-out 1s 1 normal none;
+  animation: buttonhover 2s ease-in-out normal none;
   /*content: "Thank You";*/
 }
-#contact-hero-form input[type="submit"] + #send {
+
+/*#contact-hero-form input[type="submit"] + #send {
   margin-top: -65px;
 }
 #contact-hero-form input[type="submit"]:hover + #thankyou {
   margin-top: -65px;
   background-color: #626262;
+}*/
+
+button {
+  padding: 12px 28px;
+  border-radius: 5px;
+  background: #9a2018;
+  color: #fff;
+  border: none;
+  /*transition: all 200ms ease-in;*/
+  width: 150px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+button:after {
+  content: "Send";
+  color: #fff;
+}
+
+button:hover {
+  background-color: #626262;
+  border-radius: 0;
+  width: 380px;
+  animation: buttonhover 2s ease-in-out 1 normal none;
+}
+button:active:after {
+  content: "Thank You!";
+}
+
+button:active {
+  background-color: #4caf50;
+}
+
+/* Style the button when the form is valid and ready to be submitted */
+form:valid button {
+  background-color: #4caf50;
+  cursor: pointer;
 }
 
 #contact-hero-form input[type="checkbox"] {
@@ -478,7 +516,7 @@ textarea {
   background-repeat: no-repeat;
   color: #fff;
   font-size: 12px;
-  margin: top 40px;
+  margin-top: 40px;
   padding-bottom: 80px;
 }
 
