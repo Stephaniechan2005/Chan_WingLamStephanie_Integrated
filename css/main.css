@@ -14,6 +14,9 @@ Couples Resort Responsive Build
     6.  About & FAQ
     7.  Contact Form
     8.  Footer
+    9.  Activities Page CSS
+    10. Summer Page CSS
+    11. Spa Page CSS
  */
 
 /* 1. ---General Styles--- */
@@ -78,6 +81,12 @@ textarea {
   text-align: center;
   color: #626262;
 }
+
+#main-nav ul li a:hover {
+  color: #9a2018;
+  border-bottom: 1px solid #9a2018;
+}
+
 #main-nav ul li {
   border-bottom: 1px solid #efefef;
 }
@@ -531,7 +540,7 @@ form:valid button {
   font-size: 11px;
 }
 
-/*Activities page*/
+/*9. Activities page CSS*/
 
 #hero-activities {
   background: url(../images/activities-hero-main.jpeg) no-repeat;
@@ -641,7 +650,7 @@ form:valid button {
   margin-bottom: 20px;
 }
 
-/*Summer Page*/
+/* 10. Summer Page CSS*/
 
 #hero-summer {
   background: url(../images/summer-hero-main.jpg) no-repeat;
@@ -841,7 +850,7 @@ form:valid button {
   margin-bottom: 20px;
 }
 
-/*Spa Page*/
+/*11. Spa Page CSS*/
 
 #spa-hero {
   background: url(../images/spa-main.png) no-repeat;
