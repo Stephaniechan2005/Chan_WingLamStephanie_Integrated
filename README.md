@@ -1,4 +1,4 @@
-# winter24fip_couplesresort
+# Chan_WingLamStephanie_Integrated
 
 This is the FIP Couples Resort for the first semester of Interactive media design
 
